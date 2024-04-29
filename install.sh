@@ -7,7 +7,6 @@ set -e
 # Colors
 NC='\033[0m'          # Text Reset
 On_Black='\033[40m'   # Black background
-On_Purple='\033[45m'  # Purple background
 On_Cyan='\033[46m'    # Cyan background
 On_Green='\033[42m'   # Green background
 BIRed='\033[1;91m'    # Bold Intense Red
@@ -18,7 +17,7 @@ White='\033[0;37m'    # White
 # Printing utilities
 ColErr=${BIRed}${On_Black}
 ColPrompt=${BWhite}${On_Cyan}
-ColInfo=${White}${On_Purple}
+ColInfo=${White}
 ColWarn=${BIYellow}${On_Black}
 cout() {
   echo -e "${ColInfo}${1}${NC}"
@@ -55,7 +54,7 @@ promptYesNo() {
   fi
 
   while true; do
-    local color=$'\033[1;37m\033[46m'
+    local color=$'\033[1m'
     local noColor=$'\033[0m'
     read -r -e -p "$color${1} $TXT?$noColor " yn
 
