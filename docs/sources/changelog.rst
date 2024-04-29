@@ -6,6 +6,28 @@ Change Log
 
 This project adheres to `Semantic Versioning <https://semver.org/spec/v2.0.0.html>`_.
 
+1.0.1 (1st May 2024)
+=====================
+
+First patch of this version, fixing documentation coherence
+
+Added
+-------
+
+N/A
+
+Changed
+-------
+
+- Renaming Supervisor parameters sections to fit with the documentation. "Copilot" renamed in Run-time Assurance Module
+- Default port set to 8000 for every Control Panel entry point (server and CLI)
+
+Removed
+-------
+
+N/A
+
+
 1.0.0 (1st May 2024)
 =====================
 
