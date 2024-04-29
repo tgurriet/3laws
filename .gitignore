@@ -1,0 +1,16 @@
+# User local folders
+.cache
+.clangd
+.vscode
+.codechecker
+CMakeUserPresets.json
+build/
+conan.lock
+conanbuildinfo.txt
+conaninfo.txt
+doc/
+graph_info.json
+install/
+.gh-pages
+*~
+__pycache__
