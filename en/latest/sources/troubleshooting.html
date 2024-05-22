@@ -12,7 +12,7 @@
 
   
     <link rel="shortcut icon" href="../_static/favicon.png"/>
-    <link rel="canonical" href="https://3lawsrobotics.github.io/3laws/sources/troubleshooting.html" />
+    <link rel="canonical" href="https://docs.3laws.io/sources/troubleshooting.html" />
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
@@ -60,7 +60,7 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Troubleshooting</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
 <li class="toctree-l1"><a class="reference internal" href="knowledge.html">Knowledge Base</a></li>
-<li class="toctree-l1"><a class="reference internal" href="changelog.html">Change Log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
 <li class="toctree-l1"><a class="reference internal" href="legal.html">Legal</a></li>
 </ul>
 
@@ -117,7 +117,7 @@
 <h2><a class="toc-backref" href="#id3" role="doc-backlink">Platform fails to move even when there are no objects nearby</a><a class="headerlink" href="#platform-fails-to-move-even-when-there-are-no-objects-nearby" title="Link to this heading"></a></h2>
 <p>Try launching Supervisor from a terminal to see what error messages appear. Supervisor will typically color fatal errors with “red” text.  If a critical error occurs, Supervisor will stop operating.  None of the commands will get forwarded to the platform.</p>
 <p>Supervisor may also keep the platform stationary if the LIDAR data or the list of obstacles is not delivering data quickly enough.  This design ensures that if Supervisor does not have sufficient information about surrounding collision candidates, it does not allow the platform to proceed.  A good strategy is to start up the Operations tab for Control Panel (with Rosbridge) and see if any of the input blocks (desired input, state, perception) is a color other than green.</p>
-<p>Another cause of platform failing to move is that the topic routing is not correct.  The ROS <code class="docutils literal notranslate"><span class="pre">rqt</span></code> tool with the Node Graph can visually display the routing well.  Verify that the desired inputs (e.g. cmd_vel_plan) are coming into Supervisor, and that Supervisor’s outputs (e.g. /lll/ram/filtered_input) is properly mapped to the signal that the lower layer is expecting (e.g. cmd_vel).</p>
+<p>Another cause of platform failing to move is that the topic routing is not correct.  The ROS <code class="docutils literal notranslate"><span class="pre">rqt</span></code> tool with the Node Graph can visually display the routing well.  Verify that the desired inputs (e.g. cmd_vel_plan) are coming into Supervisor, and that Supervisor’s outputs (e.g. /lll/ram/filtered_input by default) is properly mapped to the signal that the lower layer is expecting (e.g. cmd_vel).</p>
 </section>
 <section id="my-robot-doesn-t-move-when-i-send-a-command">
 <h2><a class="toc-backref" href="#id4" role="doc-backlink">My robot doesn’t move when I send a command</a><a class="headerlink" href="#my-robot-doesn-t-move-when-i-send-a-command" title="Link to this heading"></a></h2>
@@ -171,13 +171,13 @@
       <strong>
         
         <dd>
-          <a href="/3laws/en/latest/index.html">latest</a>
+          <a href="/en/latest/index.html">latest</a>
         </dd>
         
       </strong>
         
         <dd>
-          <a href="/3laws/en/1.0/index.html">1.0</a>
+          <a href="/en/1.0/index.html">1.0</a>
         </dd>
          
     </dl>
