@@ -52,6 +52,9 @@ html_show_sphinx = False
 html_show_sourcelink = False
 sphinx_tabs_disable_tab_closing = True
 
+todo_include_todos = True
+todo_emit_warnings = True
+
 templates_path = ["_templates"]
 html_static_path = ["_static"]
 exclude_patterns = ["_build", "build", "Thumbs.db", ".DS_Store"]
@@ -69,10 +72,10 @@ html_theme = "sphinx_rtd_theme"
 # The master toctree document.
 master_doc = "index"
 
-rst_prolog = """
-.. include:: special.rst
-"""
-
 html_css_files = [
     "css/text.css",
 ]
+
+
+def setup(app):
+    app.add_css_file("custom.css")
