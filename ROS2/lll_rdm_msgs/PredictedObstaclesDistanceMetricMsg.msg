@@ -1,0 +1,3 @@
+MsgHeader header
+PredictedObstaclesDistanceMetricMsgData data
+MetricTagsMsgData[] tags

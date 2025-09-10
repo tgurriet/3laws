@@ -1,0 +1,3 @@
+MsgHeader header
+SensorNoiseMetricMsgData data
+MetricTagsMsgData[] tags

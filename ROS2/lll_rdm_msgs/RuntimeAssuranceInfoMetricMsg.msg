@@ -1,0 +1,3 @@
+MsgHeader header
+RuntimeAssuranceInfoMetricMsgData data
+MetricTagsMsgData[] tags

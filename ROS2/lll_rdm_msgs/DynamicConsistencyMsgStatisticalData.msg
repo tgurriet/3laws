@@ -1,0 +1,8 @@
+float64 current_window_size
+float64[] sorted_mahalanobis_squared
+float64[] empirical_cdf
+float64[] theoretical_cdf
+
+StatisticalTestResultMsgData kolmogorov_smirnov
+StatisticalTestResultMsgData mardia_skewness
+StatisticalTestResultMsgData mardia_kurtosis

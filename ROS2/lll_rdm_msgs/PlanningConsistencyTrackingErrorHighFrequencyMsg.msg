@@ -1,0 +1,3 @@
+MsgHeader header
+PlanningConsistencyTrackingErrorHighFrequencyMsgData data
+MetricTagsMsgData[] tags

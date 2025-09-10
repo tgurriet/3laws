@@ -1,0 +1,4 @@
+bool linear_position
+bool angular_position
+bool linear_velocity
+bool angular_velocity

@@ -1,0 +1,6 @@
+float64 average_std_error
+float64 max_std_error
+float64 angle_max_error
+float64 percent_of_sigma
+float64 p_value
+bool reject_model

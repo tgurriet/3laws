@@ -1,0 +1,4 @@
+float64 mean_speed_wrt_allowed
+uint64 safety_stop_count
+uint64 safety_slow_count
+uint64 max_speed_violation

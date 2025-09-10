@@ -1,0 +1,9 @@
+string controller_id
+uint64 sample_size
+
+ControlTrackingMetricMsgSignalData desired_state
+ControlTrackingMetricMsgSignalData actual_state
+ControlTrackingMetricMsgSignalData control_input
+
+float64[<=1] max_tracking_error_norm
+float64[] max_tracking_error

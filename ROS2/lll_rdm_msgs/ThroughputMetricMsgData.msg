@@ -1,0 +1,17 @@
+builtin_interfaces/Time start_timestamp
+int64 expected_duration_ms
+int64 duration_ms
+float64 movement_efficiency
+
+bool with_kinematics
+float64 expected_distance_linear
+float64 expected_distance_angular
+float64 distance_linear
+float64 distance_angular
+float64 expected_velocity_linear
+float64 expected_velocity_angular
+float64 average_velocity_linear
+float64 average_velocity_angular
+
+IncidentInfo[] incidents
+string[] tags

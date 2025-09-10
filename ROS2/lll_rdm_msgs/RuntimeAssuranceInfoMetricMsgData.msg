@@ -1,0 +1,19 @@
+bool active
+
+bool stack_ok
+bool filter_ok
+
+bool ram_engaged
+bool ram_initialized
+
+RuntimeAssuranceInfoSignalData input
+RuntimeAssuranceInfoSignalData state
+RuntimeAssuranceInfoSignalData perception
+
+float64 min_distance_to_obstacles_current
+float64 min_distance_to_obstacles_predicted
+float64 input_modification
+float64 regulation_map_size
+float64 safety_violation
+float64 input_amplitude
+float64 state_safeness

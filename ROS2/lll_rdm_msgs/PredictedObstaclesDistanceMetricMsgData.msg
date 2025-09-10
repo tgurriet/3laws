@@ -1,0 +1,5 @@
+bool timeout
+int64 time_since_last_msg
+float64 min_current_dist
+float64 min_predicted_dist
+float64 min_predicted_dist_dt

@@ -1,0 +1,3 @@
+bool timeout
+int64 time_since_last_msg
+int64 offset_from_rtc

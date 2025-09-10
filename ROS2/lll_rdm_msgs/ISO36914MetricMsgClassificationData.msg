@@ -1,0 +1,4 @@
+string required_operation_zone
+string personnel_detection_status
+bool required_reachable_stop
+string can_automatically_recover

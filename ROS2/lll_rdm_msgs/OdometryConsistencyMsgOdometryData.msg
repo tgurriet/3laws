@@ -1,0 +1,13 @@
+uint8 OK=0
+uint8 BAD=1
+uint8 INCOMPARABLE=2
+uint8 UNCERTAIN=3
+
+string odometry_id
+uint8 status
+float64 consistency_score
+OdometryConsistencyMsgDifference[] differences
+float64 max_linear_position_difference
+float64 max_angular_position_difference
+float64 max_linear_velocity_difference
+float64 max_angular_velocity_difference

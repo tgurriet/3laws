@@ -1,0 +1,3 @@
+string compared_odometry
+OdometryValueDifference value_differences
+OdometryBoolDifference differences_acceptability

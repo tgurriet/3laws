@@ -1,0 +1,4 @@
+float64 linear_position
+float64 angular_position
+float64 linear_velocity
+float64 angular_velocity

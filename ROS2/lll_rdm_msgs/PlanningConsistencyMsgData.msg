@@ -1,0 +1,6 @@
+bool consistent_lengths
+bool consistent_state_size
+bool consistent_input_size
+bool strictly_sorted_time
+float64 acceleration_inconsistency
+float64[] acceleration_inconsistency_values

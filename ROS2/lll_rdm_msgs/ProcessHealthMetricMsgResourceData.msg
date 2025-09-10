@@ -1,0 +1,11 @@
+string status
+float64 cpu_usage
+float64 cpu_usage_total
+uint64 ram_usage
+uint64 n_threads
+float64 process_up_time
+float64 process_run_time
+uint64 io_total_read
+uint64 io_total_write
+uint64 io_disk_read
+uint64 io_disk_write

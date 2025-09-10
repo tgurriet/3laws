@@ -1,0 +1,12 @@
+
+float64 max_linear_position_difference
+float64 max_angular_position_difference
+float64 max_linear_velocity_difference
+float64 max_angular_velocity_difference
+
+float64 linear_position_difference_bound
+float64 angular_position_difference_bound
+float64 linear_velocity_difference_bound
+float64 angular_velocity_difference_bound
+
+OdometryConsistencyMsgOdometryData[] odometry_data

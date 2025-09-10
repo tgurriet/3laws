@@ -1,0 +1,5 @@
+IoTotalCurrentData metadata
+IoTotalCurrentData inputs
+IoTotalCurrentData all
+IoTotalCurrentData metrics
+IoTotalCurrentData log

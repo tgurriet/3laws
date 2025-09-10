@@ -1,0 +1,13 @@
+bool state_timeout
+int64 time_since_last_state_msg
+bool input_timeout
+int64 time_since_last_input_msg
+bool has_state_domain
+float64 state_domain_value
+bool has_input_domain
+float64 input_domain_value
+
+bool has_integration_data
+DynamicConsistencyMsgIntegrationData integration_data
+
+DynamicConsistencyMsgStatisticalData statistical_data

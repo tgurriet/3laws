@@ -1,0 +1,6 @@
+bool timeout
+int64 time_since_last_msg
+float64 min_dist
+float64 max_dist
+string min_dist_sensor_id
+string max_dist_sensor_id
